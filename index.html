@@ -1,0 +1,64 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       
+       <!-- Google fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+      
+       <!-- Font awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <body>
+        <header>
+        <i class="fas fa-hat-cowboy fa-sm logo"></i>
+        <div>
+            <h1 class="header-title">Pete's diner</h1>
+        </div>
+        <i class="fas fa-shopping-cart fa-large cart" id="shopping"></i>
+        </header>
+        <main>
+            <section>
+                <div class="menu" id="menu">
+                    <!-- Menu renders here    -->
+                    </div>
+                </section>
+                <section>
+                    <div class="shopping-cart" id="shopping-cart">
+                        <h3 class="cart-title">Your order</h3>
+                        <div class="cart-items-list" id="cart-items-list">
+                            <!-- Order renders here -->
+                        <p class="cart-placeholder">Add your favorites to place order. </p>
+                        </div>
+                        <div class="cart-sum" id="cart-sum">
+                            <p class="cart-total-text">Total price: </p>
+                            <p class="cart-total-price" id="cart-sum-total">$0</p>
+                        </div>
+                        <button class="order-btn" id="order-btn">Place order</button>
+                </section>
+                <section>
+                    <div class="confirmation-box" id="confirmation-box">
+                    </div>
+                </section>
+        </main>
+        <div class="modal" id="modal">
+            <div class="close-modal-btn-container">
+                <button class="modal-close-btn" id="modal-close-btn">X</button>
+            </div>
+            <div class="modal-inner" id="modal-inner">
+                <h1 class="modal-title">Enter card details</h1>
+                <form id="order-form">
+                    <input type="text" name="fullName" placehoder="Enter full name" title ="Enter your name" required>
+                    <input type="tel" name="tel" placehoder="Telephone number" title="Phone number, 8 digits" pattern="[0-9]{8}" required>
+                    <input type="text" name="cardNumber" placeholder="Card number" required>
+                    <input type="text" name="cardCVV" placeholder="CVV" title="3 digits on the back of your card" pattern="[0-9]{3}" required>
+                    <button type="submit" class="modal-btn" id="submit-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+    <script src="index.js" type="module"></script>
+    </body>
+</html>
