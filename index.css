@@ -39,7 +39,7 @@ header {
     color: black;
     font-weight: 400;
     color: white;
-    font-size: 39px;
+    font-size: 2.4375em;
     letter-spacing: 0.2x;
     font-family: 'Smythe', cursive;
 }
@@ -85,7 +85,7 @@ article {
 
 .item-type {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1em;
     line-height: 17px;
     margin: 0;
     padding-bottom: 8px;
@@ -93,7 +93,7 @@ article {
 
 .item-ingredients {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 24px;
     color: #8B8B8B;
     margin: 0;
@@ -104,7 +104,7 @@ article {
 .item-price {
     margin: 0;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 24px;
 }
 
@@ -135,7 +135,7 @@ article {
 .cart-title {
     text-align: center;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 17px;
     margin-bottom: 60px;
         
@@ -154,21 +154,21 @@ article {
 
 .cart-item-title {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 17px;
     margin: 0;
 }
 
 span.item-amount {
     color: #BBBBBB;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .remove-btn {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 24px;
     color: #BBBBBB;
     border: none;
@@ -177,7 +177,7 @@ span.item-amount {
 
 .cart-item-price {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 24px;
     margin: 0;
     margin-left: auto;
@@ -185,13 +185,13 @@ span.item-amount {
 
 .cart-total-text {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 24px;
 }
 
 .cart-total-price {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 24px;
 }
 
@@ -210,7 +210,7 @@ span.item-amount {
     border-radius: 3px;
     font-family: 'Verdana';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 24px;
     color: #FFFFFF;
     border: none;
@@ -249,7 +249,7 @@ span.item-amount {
 }
 
 .modal-close-btn {
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: bold;
   background-color: transparent;
   border: 1px solid transparent;
@@ -264,7 +264,7 @@ span.item-amount {
 
 .modal-title {
     margin-top: 35px;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 input {
@@ -278,7 +278,7 @@ input {
     color: #757575;
     font-family: 'Verdana';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .modal-btn {
@@ -296,7 +296,7 @@ input {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 31px;
 }
 
@@ -320,7 +320,7 @@ input {
     font-family: 'Smythe';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     background: #ECFDF5;
     border-radius: 3px;
     margin-top: 40px;
