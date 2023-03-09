@@ -10,14 +10,14 @@ body {
 
 .container {
     width: 90%;
-    max-width: 800px;
-    min-width: 300px;
+    max-width: 920px;
 }
 
 
 /* HEADER ITEMS  */
 
 .header-wrapper {
+    width: 100%;
     box-shadow: 0 0.2rem 1rem lightgray;
     height: 70px;
     display: flex;
