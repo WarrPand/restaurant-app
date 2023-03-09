@@ -1,28 +1,23 @@
 body {
-    max-width: 600px;
     margin: auto;
 }
 
 
 .main {
     font-family: 'Smythe';
-    width: 500px;
-    
+       
 }
 
-.page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-.content-wrap {
-    padding-bottom: 2.5rem; 
+.container {
+    width: 90%;
+    max-width: 800px;
+    min-width: 300px;
 }
 
 
 /* HEADER ITEMS  */
 
-header {
+.header-wrapper {
     box-shadow: 0 0.2rem 1rem lightgray;
     height: 70px;
     display: flex;
@@ -32,7 +27,6 @@ header {
     gap: 3px;
     padding: 5px 0;
     margin-bottom: 50px;
-    width: 520px;
     
 }
 .logo, .header-title {
@@ -63,11 +57,6 @@ header {
 
 /* FOOD ITEMS LIST */
 
-article {
-    width: 500px;
-    margin-left: 20px;
-}
-
 .item {
     display: flex; 
     align-items: center;
@@ -79,14 +68,13 @@ article {
 
 
 .item-image {
-    width: 60px;
+    width: 15%;
     height: auto;
 }
 
 .item-type {
     font-weight: 400;
     font-size: 1em;
-    line-height: 17px;
     margin: 0;
     padding-bottom: 8px;
 }
@@ -94,7 +82,6 @@ article {
 .item-ingredients {
     font-weight: 400;
     font-size: 1em;
-    line-height: 24px;
     color: #8B8B8B;
     margin: 0;
     padding-bottom: 8px;
@@ -105,7 +92,6 @@ article {
     margin: 0;
     font-weight: 400;
     font-size: 1.25em;
-    line-height: 24px;
 }
 
 .add {
@@ -127,7 +113,6 @@ article {
     flex-direction: column;
     margin-top: 45px;
     font-family: 'Smythe', cursive;
-    width: 500px;
     margin-left: 20px;
     
 }
@@ -136,7 +121,6 @@ article {
     text-align: center;
     font-weight: 400;
     font-size: 1.75em;
-    line-height: 17px;
     margin-bottom: 60px;
         
 }
@@ -201,7 +185,6 @@ span.item-amount {
 }
 
 .order-btn {
-    width: 500px;
     height: 60px;
     left: 46px;
     top: 1048px;
@@ -314,7 +297,6 @@ input {
     align-items: center;
     text-align: center;
     margin: auto;
-    width: 430px;
     height: 120px;
     color: #065F46;
     font-family: 'Smythe';
